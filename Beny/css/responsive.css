@@ -1,0 +1,468 @@
+@media screen and (max-width:1024px) {}
+
+@media screen and (max-width:1024px) {
+
+    /* About Me */
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .about-img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+
+    .about-img img {
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    /* Service Section */
+    .beny-services-list {
+        display: flex;
+        padding-top: 40px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .beny-service-box {
+        width: 100%;
+        background-color: #f9f9fc;
+        padding: 50px;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+    /* My pertfolio */
+    .img-box {
+        width: 50%;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .image-box-content {
+        padding: 0 10px;
+        margin-bottom: 10px;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:991px) {
+    /* Header */
+    nav.nav-bar {
+        padding: 30px 15px;
+    }
+    /* MY Experience */
+
+    .row {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .resume-box {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .beny-service-box:first-of-type {
+       margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-menu-wrapper {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        z-index: 9;
+        width: 100%;
+        max-width: 1270px;
+    }
+    #back-to-top{
+        opacity: 0;
+    }
+    .mobile-menu-wrapper .mobile-menu-icon {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .maine-header {
+        display: none;
+    }
+
+    /* Hero Section */
+    .content-text h1 {
+        font-size: 30px;
+    }
+
+    .content-text h1 span {
+        font-size: 30px;
+    }
+
+    /* About Contact */
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+    section.about-me {
+        padding: 80px 0;
+    }
+    .about-me-title h2 {
+        font-size: 30px;
+    }
+
+    .about-img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+
+    .about-img img {
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .about-text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .list ul li {
+        margin-bottom: 14px;
+        width: 100%;
+    }
+
+    /* My Experince */
+    .row {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .resume-box {
+        width: 100%;
+        /* max-width: 33.33%; */
+        margin-top: 30px;
+        /* padding-left: 15px; */
+        /* padding-right: 15px; */
+    }
+    .resume-maine-title h3 {
+        font-size: 35px;
+        font-weight: 700;
+        color: #0f172a;
+        margin: 0;
+    }
+    /* My Services */
+    .beny-services {
+        width: 100%;
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .beny-services-title h2 {
+        font-size: 30px;
+        line-height: 39px;
+    }
+    .beny-services-title p{
+        margin: 0;
+    }
+    .beny-services-list {
+        display: flex;
+        padding-top: 40px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .beny-service-box {
+        width: 100%;
+        background-color: #f9f9fc;
+        padding: 50px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        margin-left: 0;
+    }
+
+    /* My Pertfolio */
+    .portfolio {
+        background-color: #f9f9fc;
+        width: 100%;
+        padding: 55px 0 70px;
+    }
+
+    .portfolio-title h2 {
+        font-size: 30px;
+    }
+
+    .img-box {
+        width: 100%;
+    }
+
+    .image-box-content {
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    /* My blog */
+    .my-blog {
+        width: 100%;
+        padding: 70px 0 50px;
+    }
+
+    .blog-title h2 {
+        font-size: 30px;
+    }
+
+    .blog-news {
+        display: flex;
+        padding-top: 55px;
+        flex-direction: column;
+    }
+
+    .blog-item {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    /* Contact Info */
+    .contact {
+        width: 100%;
+        padding: 70px 0 50px;
+    }
+
+    .contact-box {
+        flex-direction: column;
+    }
+
+    .left-contact {
+        width: 100%;
+        margin-bottom: 45px;
+        padding: 0;
+    }
+
+    .name {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .email-subject {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email {
+        width: 100%;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+
+    .subject {
+        width: 100%;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+
+    .massege {
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+    }
+
+    .right-contact {
+        width: 100%;
+    }
+    .list-inner {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .left {
+        position: relative;
+        width: auto;
+    }
+    .right {
+        width: 100%;
+        padding: 20px 0 0 25px;
+        margin-left: 0px;
+        position: relative;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .text {
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+    .text p {
+        margin: 0;
+        line-height: 30px;
+    }
+    h3.test-name {
+        font-size: 24px;
+        font-weight: 500;
+        color: #0f172a;
+        display: block;
+        margin: 0;
+        text-align: center;
+        line-height: 30px;
+    }
+    h3.test-name span::before {
+        position: absolute;
+        content: "";
+        width: 100px;
+        height: 2px;
+        background-color: #f52225;
+        left: 0;
+        top: 50%;
+        display: none;
+    }
+    h3.test-name span {
+        position: relative;
+        padding-left: 0px;
+        text-align: center;
+    }
+    span.job {
+        font-size: 18px;
+        display: block;
+        padding-left: 0px;
+         padding-top: 0px; 
+        text-align: center;
+        line-height: 30px;
+    }
+    .title-holder h2 {
+        font-size: 30px;
+        line-height: 39px;
+    }
+    .footer {
+        margin-bottom: 70px;
+    }
+    /* .slick-arrow {
+        display: none;
+    }
+    .slick-prev:before {
+        content: '←';
+        display: none;
+    }
+    .slick-arrow {
+        display: none;
+    }
+    .slick-next:before {
+        content: '→';
+        display: none;
+    } */
+    .slick-next {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .mobile-menu-wrapper .mobile-menu-icon {
+        justify-content: space-between;
+    }
+    .footer {
+        width: 100%;
+        background-color: black;
+        padding: 30px 0;
+        margin-bottom: 70px;
+    }
+.mobile-menu-wrapper .mobile-menu-icon li a{
+    padding: 15px 10px;
+}
+    .maine-header {
+        display: none;
+    }
+    .resume-btn {
+        display: flex;
+        align-items: baseline;
+    }
+    .resume-btn a {
+        font-size: 16px;
+        /* margin: 0 10px; */
+        padding: 12px 15px;
+        background-color: red;
+        border-radius: 8px;
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+    }
+    #back-to-top{
+        opacity: 0;
+    }
+    .list-inner {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .left {
+        position: relative;
+        width: auto;
+    }
+    .right {
+        width: 100%;
+        padding: 20px 0 0 25px;
+        margin-left: 0px;
+        position: relative;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .text {
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+    h3.test-name {
+        font-size: 24px;
+        font-weight: 500;
+        color: #0f172a;
+        display: block;
+        margin: 0;
+        text-align: center;
+        line-height: 30px;
+    }
+    h3.test-name span::before {
+        position: absolute;
+        content: "";
+        width: 100px;
+        height: 2px;
+        background-color: #f52225;
+        left: 0;
+        top: 50%;
+        display: none;
+    }
+    h3.test-name span {
+        position: relative;
+        padding-left: 0px;
+        text-align: center;
+    }
+    span.job {
+        font-size: 18px;
+        display: block;
+        padding-left: 0px;
+         padding-top: 0px; 
+        text-align: center;
+        line-height: 30px;
+    }
+    .number-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
